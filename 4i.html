@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 4i and 4j</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      margin: 20px;
+      font-family: 'Times New Roman', Times;
+    }
+
+    /* Box Container */
+    .box {
+      background-color: white;
+      color: black;
+      border: 1px solid white;
+      padding: 16px;
+      width: 180px;
+      border-radius: none;
+
+    }
+ p {
+      margin: 8px 0;
+    }
+      .add-to-cart-button{
+      background-color: yellow;
+    }
+   .buy-now-button{
+      background-color: orange;
+        }
+  
+    .container{
+      display: flex;
+               }
+  .buy-now-button { 
+          transition: 0.2s;
+}
+.buy-now-button:hover {
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: rgb(240, 244, 10);
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box">
+    <p>Adults Plain Cotton T-shirt</p>
+    <p>Price: $7.99</p>
+       <button class="add-to-cart-button" onclick="alert('Added')">
+        Add to cart</button>
+
+ <button  class="buy-now-button"  onclick="      
+      console.log('Loading...'); 
+        alert('Purchased');
+      ">Buy now</button>
+     
+ </body>
+</html>
